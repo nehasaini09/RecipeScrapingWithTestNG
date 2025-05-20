@@ -20,7 +20,7 @@ public class BaseTest {
 
 	@BeforeClass
 	public void setup() {
-		ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();// final
 		// Disable images
 		// Disable images using preferences
 		Map<String, Object> prefs = new HashMap<>();
